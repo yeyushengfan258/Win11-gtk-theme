@@ -3,6 +3,42 @@
 // Nautilus
 //
 .nautilus-window {
+  background-color: rgba($titlebar, 0.65);
+  
+  .sidebar-pane,
+  .content-pane {
+      background-color: transparent;
+      &:backdrop { background-color: transparent; }
+  .top-bar {
+    .collapse-spacing { padding: 0; }
+
+    headerbar {
+      background-color: transparent;
+      border-bottom: 1px solid $divider;
+
+      &:backdrop { background-color: transparent; }
+
+      > windowhandle > box { padding: $space-size; }
+    }
+  }
+  }
+  
+  .sidebar-pane {
+    placessidebar { background-color: $sidebar; border-right: 1px solid $solid-border; }
+    
+  &:dir(ltr), &.end:dir(rtl) {
+    &, banner > revealer > widget {
+      border-right: none;
+    }
+  }
+
+  &:dir(rtl), &.end:dir(ltr) {
+    &, banner > revealer > widget {
+      border-left: none;
+    }
+  }
+  }
+
   placesview {
     label { color: $text-secondary; }
   }

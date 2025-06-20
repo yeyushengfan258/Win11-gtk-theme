@@ -3385,7 +3385,7 @@ levelbar block.high, levelbar block:not(.empty) {
 }
 
 levelbar block.full {
-  background-color: #0F9D58;
+  background-color: #1E88E5;
 }
 
 levelbar block.empty {
@@ -8343,7 +8343,7 @@ widgets main borders color on backdrop windows */
 these are pretty self explicative */
 @define-color warning_color #F4B400;
 @define-color error_color #D93025;
-@define-color success_color #0F9D58;
+@define-color success_color #1E88E5;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
