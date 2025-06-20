@@ -69,8 +69,8 @@ Run the following commands in the terminal:
 > For more information, run: `./install.sh --help`
 
 ## Preview:
-![preview-01](backgrounds/previews/preview-01.png?raw=true)
-![preview-02](backgrounds/previews/preview-02.png?raw=true)
+![preview-01](backgrounds/previews/preview-01.jpg?raw=true)
+![preview-02](backgrounds/previews/preview-02.jpg?raw=true)
 
 ### Flatpak Installation
 
