@@ -68,15 +68,18 @@ Run the following commands in the terminal:
 
 > For more information, run: `./install.sh --help`
 
-## Preview:
-![preview-01](preview-01.jpg?raw=true)
-![preview-02](preview-02.jpg?raw=true)
-![preview-03](preview-03.jpg?raw=true)
-![preview-04](preview-04.jpg?raw=true)
 
 ### Flatpak Installation
 
 Automatically install your host GTK+ theme as a Flatpak.
 
 - [pakitheme](https://github.com/refi64/pakitheme)
+
+## Preview:
+![preview-01](preview-01.jpg?raw=true)
+![preview-02](preview-02.jpg?raw=true)
+![preview-03](preview-03.jpg?raw=true)
+![preview-04](preview-04.jpg?raw=true)
+
+
 
