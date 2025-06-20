@@ -2,6 +2,12 @@
 
 Win11 is a Fluent design theme for GNOME/GTK based desktop environments
 
+### Donate
+
+If you like my project, you can buy me a coffee:
+
+<span class="paypal"><a href="https://www.paypal.me/yeyushengfan258" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
+
 
 #### Blur version requirement
 
@@ -61,6 +67,10 @@ Run the following commands in the terminal:
 ```
 
 > For more information, run: `./install.sh --help`
+
+## Preview:
+![preview-01](backgrounds/previews/preview-01.png?raw=true)
+![preview-02](backgrounds/previews/preview-02.png?raw=true)
 
 ### Flatpak Installation
 
