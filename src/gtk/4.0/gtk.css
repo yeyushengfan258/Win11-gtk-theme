@@ -3809,7 +3809,7 @@ levelbar block.high, levelbar block:not(.empty) {
 }
 
 levelbar block.full {
-  background-color: #0F9D58;
+  background-color: #1E88E5;
 }
 
 levelbar block.empty {
@@ -4969,6 +4969,54 @@ statusbar {
   padding: 6px 12px;
 }
 
+.nautilus-window {
+  background-color: rgba(242, 242, 242, 0.65);
+}
+
+.nautilus-window .sidebar-pane,
+.nautilus-window .content-pane {
+  background-color: transparent;
+}
+
+.nautilus-window .sidebar-pane:backdrop,
+.nautilus-window .content-pane:backdrop {
+  background-color: transparent;
+}
+
+.nautilus-window .sidebar-pane .top-bar .collapse-spacing,
+.nautilus-window .content-pane .top-bar .collapse-spacing {
+  padding: 0;
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar,
+.nautilus-window .content-pane .top-bar headerbar {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar:backdrop,
+.nautilus-window .content-pane .top-bar headerbar:backdrop {
+  background-color: transparent;
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar > windowhandle > box,
+.nautilus-window .content-pane .top-bar headerbar > windowhandle > box {
+  padding: 6px;
+}
+
+.nautilus-window .sidebar-pane placessidebar {
+  background-color: #F2F2F2;
+  border-right: 1px solid #d9d9d9;
+}
+
+.nautilus-window .sidebar-pane:dir(ltr), .nautilus-window .sidebar-pane:dir(ltr) banner > revealer > widget, .nautilus-window .sidebar-pane.end:dir(rtl), .nautilus-window .sidebar-pane.end:dir(rtl) banner > revealer > widget {
+  border-right: none;
+}
+
+.nautilus-window .sidebar-pane:dir(rtl), .nautilus-window .sidebar-pane:dir(rtl) banner > revealer > widget, .nautilus-window .sidebar-pane.end:dir(ltr), .nautilus-window .sidebar-pane.end:dir(ltr) banner > revealer > widget {
+  border-left: none;
+}
+
 .nautilus-window placesview label {
   color: rgba(0, 0, 0, 0.6);
 }
@@ -6018,8 +6066,8 @@ carousel.card {
 }
 
 .context-tile-lozenge.green, .context-tile-lozenge.details-rating-0 {
-  color: #085731;
-  background-color: rgba(15, 157, 88, 0.15);
+  color: #1360a4;
+  background-color: rgba(30, 136, 229, 0.15);
 }
 
 .context-tile-lozenge.blue, .context-tile-lozenge.details-rating-5 {
@@ -7834,7 +7882,7 @@ widgets main borders color on backdrop windows */
 these are pretty self explicative */
 @define-color warning_color #F4B400;
 @define-color error_color #D93025;
-@define-color success_color #0F9D58;
+@define-color success_color #1E88E5;
 /*
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */

@@ -113,6 +113,7 @@ $titlebar:                              if($variant == 'light', #F2F2F2, #282828
 $titlebar-backdrop:                     if($variant == 'light', #ffffff, #323232);
 $panel:                                 if($topbar == 'light', rgba(#F7F7F7, 0.8), rgba(#1F1F1F, 0.8));
 $panel-solid:                           if($topbar == 'light', #F7F7F7, #1F1F1F); // for Unity panel which doesn't allow translucent colors
+$sidebar:                               if($variant == 'light', #F2F2F2, #242424);
 
 $blur_opacity:                          if($variant == 'light', 0.85, 0.5);
 

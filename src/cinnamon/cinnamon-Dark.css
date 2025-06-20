@@ -1016,7 +1016,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-event-time-present:all-day {
-  color: rgba(129, 201, 149, 0.6);
+  color: rgba(30, 136, 229, 0.6);
 }
 
 .calendar-event-time-future {
@@ -1040,7 +1040,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-event-countdown:current {
-  color: rgba(129, 201, 149, 0.6);
+  color: rgba(30, 136, 229, 0.6);
 }
 
 .calendar-event-summary {
@@ -1798,8 +1798,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .window-list-item-box .progress {
   background-gradient-direction: vertical;
-  background-gradient-start: #81C995;
-  background-gradient-end: #81C995;
+  background-gradient-start: #1E88E5;
+  background-gradient-end: #1E88E5;
   border-radius: 4px;
   box-shadow: none;
 }
@@ -1921,8 +1921,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .grouped-window-list-item-box .progress {
   background-gradient-direction: vertical;
-  background-gradient-start: #81C995;
-  background-gradient-end: #81C995;
+  background-gradient-start: #1E88E5;
+  background-gradient-end: #1E88E5;
   border-radius: 4px;
   box-shadow: none;
 }
