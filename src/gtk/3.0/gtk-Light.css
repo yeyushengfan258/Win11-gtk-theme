@@ -8178,15 +8178,30 @@ window.background.csd.thunar scrolledwindow.frame.sidebar.shortcuts-pane treevie
 /********
  * Nemo *
  ********/
+.nemo-window.background {
+  background-color: rgba(242, 242, 242, 0.65);
+}
+
+.nemo-window.background headerbar {
+  background-color: rgba(242, 242, 242, 0.65);
+}
+
+.nemo-window.background menubar {
+  background-color: transparent;
+}
+
+.nemo-window.background menubar:backdrop {
+  background-color: transparent;
+}
+
 .nemo-window.background .primary-toolbar {
-  background-color: #F2F2F2;
+  background-color: transparent;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   padding: 6px 4px;
-  box-shadow: 0 3px 5px -2px rgba(0, 0, 0, 0.35), 0 1px 2px -1px rgba(0, 0, 0, 0.22);
 }
 
 .nemo-window.background .primary-toolbar:backdrop {
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .nemo-window.background .primary-toolbar entry {

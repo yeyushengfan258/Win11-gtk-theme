@@ -135,7 +135,7 @@ $link-visited:                          if($variant == 'light', $purple-500, $pu
 
 $warning:                               if($variant == 'light', #F4B400, #FDD633);
 $error:                                 if($variant == 'light', #D93025, #F28B82);
-$success:                               if($variant == 'light', #0F9D58, #81C995);
+$success:                               $blue-600;
 
 $suggested:                             $primary;
 $destructive:                           $error;
