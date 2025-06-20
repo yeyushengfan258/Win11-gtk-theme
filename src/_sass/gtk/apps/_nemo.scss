@@ -8,13 +8,25 @@
 // https://github.com/linuxmint/nemo/blob/master/gresources/nemo-style-application.css
 
 .nemo-window.background {
+  background-color: rgba($titlebar, 0.65);
+  
+  headerbar {
+    background-color: rgba($titlebar, 0.65);
+  }
+
+  menubar {
+    background-color: transparent;
+
+    &:backdrop { background-color: transparent; }
+  }
+
   .primary-toolbar {
-    background-color: $titlebar;
+    background-color: transparent;
     border-bottom: 1px solid $divider;
     padding: $space-size $space-size - 2px;
-    box-shadow: 0 3px 5px -2px rgba(black, 0.35), 0 1px 2px -1px rgba(black, 0.22);
+    // box-shadow: 0 3px 5px -2px rgba(black, 0.35), 0 1px 2px -1px rgba(black, 0.22);
 
-    &:backdrop { background-color: $titlebar-backdrop; }
+    &:backdrop { background-color: transparent; }
 
     // FIXME: workaround for wrong size allocation of Nemo
     entry {
